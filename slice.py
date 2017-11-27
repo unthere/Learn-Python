@@ -6,7 +6,7 @@ def trim(s):
     if s[0] == ' ' and s[k-1] == ' ':
         print s[1:k-1]
     else:
-        print "nothing"
+        print "good"
 
 x=' hello '
 print trim(x)
